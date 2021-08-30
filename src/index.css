@@ -1,13 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  background-image: url("https://images.unsplash.com/photo-1491466424936-e304919aada7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100vw; */
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.made_by {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: ; */
+}
+.multiStep_form_h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #e6e0e0e3;
+  /* justify-content: ; */
+}
+
+.made_by h5 {
+  font-size: 22px;
+  color: #e6e0e0e3;
+  font-family: sans-serif;
+}
+
+a {
+  color: #18aad8;
+  text-decoration: none;
+  font-size: 19px;
+  margin-left: 10px;
+  font-family: sans-serif;
 }
